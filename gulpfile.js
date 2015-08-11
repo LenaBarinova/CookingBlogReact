@@ -56,3 +56,8 @@ gulp.task('build',['es2015', 'test','copy-jstheme','copy-index','copy-img', 'cop
 gulp.task('watch', function() {
     gulp.watch('**/*.*', ['test']);
 });
+
+gulp.task('publish', function() {
+  return gulp.src(['./output/**/*'])
+    .pipe(plug.ghPages());
+});

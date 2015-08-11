@@ -19,3 +19,6 @@ bower_components/
 
 # Output directory
 output/
+
+# Temporary publishing directory
+.publish/
