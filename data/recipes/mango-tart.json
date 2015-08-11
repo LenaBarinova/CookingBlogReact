@@ -1,0 +1,99 @@
+{
+    "recipeID": 17,
+    "title": "Mango Tart",
+    "slug": "mango-tart",
+    "description": "A drop of almond extract in a cream - that's what makes it special!",
+    "story": "I took a <a href='http://www.joyofbaking.com/SweetPastryCrust.html' target='_blank'>Sweet Pastry Crust</a> recipe from Joy Of Baking site. Everthing else was just an experiment, which came very delicious.<br /><br />I think any fruits or berries can go on top - I'm using mangos this time.",
+    "category": "sweets",
+    "recipeURL": "#/recipes/mango-tart",
+    "imageURL": "images/recipes/mango-tart.jpg",
+    "creationDate": "2015-04-30",
+    "lastModified": "2015-04-30",
+    "servings": 6,
+    "cookingTime": 50,
+  "ingredients": [
+    {
+      "name": "flour",
+      "quantity": 1.5,
+      "unit": "cup",
+      "preparationNotes": "sifted"
+        },
+    {
+      "name": "butter",
+      "quantity": 113,
+      "unit": "g",
+      "preparationNotes": "at room temperature"
+        },
+    {
+      "name": "sugar",
+      "quantity": 50,
+      "unit": "g",
+      "preparationNotes": null
+        },
+    {
+      "name": "eggs",
+      "quantity": 1,
+      "unit": null,
+      "preparationNotes": null
+        },
+    {
+      "name": "salt",
+      "quantity": 1,
+      "unit": "pinch",
+      "preparationNotes": null
+        },
+    {
+      "name": "cream cheese",
+      "quantity": 1,
+      "unit": "cup",
+      "preparationNotes": null
+        },
+    {
+      "name": "eggs",
+      "quantity": 2,
+      "unit": null,
+      "preparationNotes": null
+        },
+    {
+      "name": "sugar",
+      "quantity": 50,
+      "unit": "g",
+      "preparationNotes": null
+        },
+    {
+      "name": "mangos",
+      "quantity": 3,
+      "unit": null,
+      "preparationNotes": "(Or other fruits or berries, such as: peaches, cherries, plums)"
+        },
+    {
+      "name": "almond extract",
+      "quantity": 1,
+      "unit": "tsp",
+      "preparationNotes": null
+        },
+    {
+      "name": "cinnamon",
+      "quantity": 1,
+      "unit": "tbsp",
+      "preparationNotes": null
+        },
+    {
+      "name": "almond shaves",
+      "quantity": 2,
+      "unit": "tbsp",
+      "preparationNotes": null
+        }
+    ],
+  "instructions": [
+    "Preheat our oven to 350 F degrees",
+    "Mix flour, 50g sugar, butter and one egg in a standing mixer untill the dough comes together in a ball.",
+    "Spread the pastry on your tart pan. Prick the pastry with fork.",
+    "Cook for 20 minutes.",
+    "Meanwhile beat eggs with sugar, add cheese cream. Mix all together. Add almond extract.",
+    "Once tha pastry is cooked, place filling on the crust, add sliced mangos on top.",
+    "Sprinkle with shaved almonds and cinnamon",
+    "Bake for 20 min more.",
+    "Serve cooled."
+    ]
+}

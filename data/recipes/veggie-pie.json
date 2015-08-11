@@ -1,0 +1,71 @@
+{
+  "recipeID": 2,
+      "description": "If you want to impress - this is what you need to bake.",
+    "story": "This festive dish is absolutely beautiful, good when you really want to impress :). Goes well with baked lamb ribs. We’ve cooked this combination for our cosy new year’s dinner.",
+    "category": "for-party",
+    "recipeURL": "#/recipes/veggie-pie",
+    "imageURL": "images/recipes/veggie-pie.jpg",
+    "creationDate": "2015-05-23",
+    "servings": 6,
+    "cookingTime": 90,
+    "ingredients": [
+    {
+      "name": "rainbow carrots",
+      "quantity": 4,
+      "unit": null,
+      "preparationNotes": "take different colors"
+        },
+    {
+      "name": "eggplant",
+      "quantity": 1,
+      "unit": null,
+      "preparationNotes": null
+        },
+    {
+      "name": "zucchini",
+      "quantity": 1,
+      "unit": null,
+      "preparationNotes": null
+        },
+    {
+      "name": "Filo dough",
+      "quantity": null,
+      "unit": null,
+      "preparationNotes": null
+        },
+    {
+      "name": "butter",
+      "quantity": 100,
+      "unit": "g",
+      "preparationNotes": "melted"
+        },
+    {
+      "name": "sour cream",
+      "quantity": 2,
+      "unit": "tbsp",
+      "preparationNotes": null
+        },
+    {
+      "name": "mustard",
+      "quantity": 1,
+      "unit": "tsp",
+      "preparationNotes": null
+        },
+     {
+      "name": "salt & pepper",
+      "quantity": null,
+      "unit": null,
+      "preparationNotes": null
+        }
+    ],
+  "instructions": [
+    "Peel carrots.",
+    "With carrot peeler make ribbons out of carrots, eggplant and zucchini.",
+    "Cover baking dish with Filo dough (oiling each Filo dough sheet with melted butter). I used 8 layers of Filo.",
+    "Spread sour cream and mustard on the Filo.",
+    "Start setting vegetables from the center, making circles of different colored carrots, zucchini and eggplant.",
+    "Season with pepper and salt.",
+    "Bake in 190C (375F) for an hour.",
+    "Cool down a bit before slicing."
+    ]
+}

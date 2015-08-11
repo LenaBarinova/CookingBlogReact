@@ -1,0 +1,74 @@
+{
+  "recipeID": 1,
+  "title": "Chocolate Homemade Truffles",
+  "slug": "chocolate-homemade-truffles",
+  "description": "Slightly updated and enriched recipe of sweets (Adult edition).",
+  "story": "Easy to make, no baking, you literally just mix everything and that’s all. Very good with a morning coffee or as a sweet snack for big parties.<br/><br />Can be enriched with dried berries, such as raisins or cranberries. You also have a total freedom sizing each truffle - I like them in a mini cupcakes liners.",
+  "category": "sweets",
+  "recipeURL": "#/recipes/chocolate-homemade-truffles",
+  "imageURL": "images/recipes/chocolate-homemade-truffles.jpg",
+  "creationDate": "2015-04-15",
+  "lastModified": "2015-04-15",
+  "servings": 6,
+  "cookingTime": 35,
+  "ingredients": [
+    {
+      "name": "condensed milk",
+      "quantity": 1,
+      "unit": "can",
+      "preparationNotes": "sweetened"
+        },
+    {
+      "name": "shortbread cookies",
+      "quantity": 360,
+      "unit": "g",
+      "preparationNotes": "(or just any cookies you like)"
+        },
+    {
+      "name": "nuts",
+      "quantity": 1,
+      "unit": "handful",
+      "preparationNotes": "(I take pecan)"
+        },
+    {
+      "name": "dark chocolate",
+      "quantity": 120,
+      "unit": "g",
+      "preparationNotes": null
+        },
+    {
+      "name": "cacao powder",
+      "quantity": 50,
+      "unit": "g",
+      "preparationNotes": "unsweetened"
+        },
+    {
+      "name": "butter",
+      "quantity": 100,
+      "unit": "g",
+      "preparationNotes": null
+        },
+    {
+      "name": "dark rum",
+      "quantity": 20,
+      "unit": "ml",
+      "preparationNotes": null
+        },
+    {
+      "name": "nuts, crached cookies, cacao powder",
+      "quantity": null,
+      "unit": null,
+      "preparationNotes": "for decoration"
+        }
+    ],
+  "instructions": [
+    "Melt butter and chocolate.",
+    "Mix crushed cookies and nuts.",
+    "Add cacao powder to the cookies and nuts, stir well. Start adding condensed milk keep stirring.",
+    "And finally add melted butter and chocolate.",
+    "You can add some rum to the mixture at this stage if you like.",
+    "Refrigerate the mixture for 15 to 30 minutes (the mixture will become thicker and it’s a lot easier to work with it when its cold).",
+    "Make small balls. Coat them in crushed cookies or cacao powder or crushed nuts.",
+    "Keep in the fridge before serving."
+    ]
+}

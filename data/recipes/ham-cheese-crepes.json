@@ -1,0 +1,91 @@
+{
+  "recipeID": 4,
+  "title": "Ham & Cheese Crepes",
+  "slug": "ham-cheese-crepes",
+  "description": "Nothing fancy today, just simply delicious and easy to make Crepes.",
+  "story": "You can play with stuffing: sweet curd, fried ground beef with onions, chicken with cheese, tomatoes and mozzarella, bananas and Nutella; the list here is endless in fact.<br /><br />Today I'm making Crepes with ham, cheese and vegetables.",
+  "category": "to-go",
+  "recipeURL": "#/recipes/ham-cheese-crepes",
+  "imageURL": "images/recipes/ham-cheese-crepes.jpg",
+  "creationDate": "2015-05-01",
+  "lastModified": "2015-05-01",
+  "servings": 3,
+  "cookingTime": 25,
+  "ingredients": [
+    {
+      "name": "eggs",
+      "quantity": 2,
+      "unit": null,
+      "preparationNotes": null
+        },
+    {
+      "name": "wheat flour",
+      "quantity": 6,
+      "unit": "tbsp",
+      "preparationNotes": "sifted"
+        },
+    {
+      "name": "sugar",
+      "quantity": 1,
+      "unit": "tbsp",
+      "preparationNotes": null
+        },
+    {
+      "name": "salt",
+      "quantity": 1,
+      "unit": "pinch",
+      "preparationNotes": null
+        },
+    {
+      "name": "whole milk",
+      "quantity": 200,
+      "unit": "ml",
+      "preparationNotes": null
+        },
+    {
+      "name": "ham",
+      "quantity": 200,
+      "unit": "g",
+      "preparationNotes": null
+        },
+    {
+      "name": "cheese",
+      "quantity": 100,
+      "unit": "g",
+      "preparationNotes": "can be any of your's favorite (I prefer white cheddar)"
+        },
+    {
+      "name": "bell pepper",
+      "quantity": 0.5,
+      "unit": null,
+      "preparationNotes": null
+        },
+    {
+      "name": "onion",
+      "quantity": 0.5,
+      "unit": null,
+      "preparationNotes": null
+        },
+    {
+      "name": "ketchup",
+      "quantity": 3,
+      "unit": "tbsp",
+      "preparationNotes": null
+        },
+    {
+      "name": "herbs",
+      "quantity": 1,
+      "unit": "pinch",
+      "preparationNotes": "(I use Italian mix)"
+        }
+    ],
+  "instructions": [
+    "For Crepes whisk eggs with sugar, add flour and a pinch of salt. Mix well.",
+    "Start adding milk gradually and keep whisking. Try to avoid lumps.",
+    "Set aside  for a couple of minutes.",
+    "Meanwhile sauté chopped bell pepper and onion on some oil for several minutes (approx. 5-7).",
+    "Start cooking Crepes, for the first one I use a table spoon of butter to cook on.",
+    "I do assembling in parallel to cooking Crepes: on a Crepe a table spoon of ketchup goes. Distribute evenly, add some chopped ham, grated cheese, sautéed vegetables and sprinkle with herbs. Roll.",
+    "You may reheat Crepe rolls before serving."
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "recipeID": 24,
+    "title": "Feta and watermelon salad",
+    "slug": "feta-watermelon-salad",
+    "description": "You can tell the summer is here. Fresh! Delicious! Unusual!",
+    "story": "I just love this combination of fresh watermellon, salty feta and roasted nuts. </br></br>This salad became number one for us on a hot summer day. It's just so refreshing!",
+    "category": "after-work",
+    "recipeURL": "#/recipes/feta-watermelon-salad",
+    "imageURL": "images/recipes/feta-watermelon-salad.jpg",
+    "creationDate": "2015-07-12",
+    "servings": 4,
+    "cookingTime": 10,
+  "ingredients": [
+    {
+      "name": "watermelon",
+      "quantity": 4,
+      "unit": "slices",
+      "preparationNotes": null
+        },
+    {
+      "name": "Feta cheese",
+      "quantity": 200,
+      "unit": "g",
+      "preparationNotes": null
+        },
+    {
+      "name": "salad mix",
+      "quantity": null,
+      "unit": null,
+      "preparationNotes": null
+        },
+    {
+      "name": "avocado",
+      "quantity": 1,
+      "unit": null,
+      "preparationNotes": null
+        },
+    {
+      "name": "pistachios",
+      "quantity": 1,
+      "unit": "handful",
+      "preparationNotes": "(or you can use pecans, or even pumpkin seeds)"
+        },
+    {
+      "name": "seasoning:",
+      "quantity": null,
+      "unit": null,
+      "preparationNotes": ": salt, pepper, olive oil, lemon juice, mint leaves"
+        }
+    ],
+  "instructions": [
+    "Roas pistachios",
+    "Peel and remove seeds from watermelon.",
+    "Chop watermelon, feta and avocado in cubes and place on salad mix.",
+    "Sprinkle with olive oil and lemon juice, add some mint leaves."
+    ]
+}

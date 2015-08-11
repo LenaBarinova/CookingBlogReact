@@ -1,0 +1,82 @@
+{
+    "recipeID": 16,
+    "title": "Cookies",
+    "slug": "cookies",
+    "description": "Macadamia nuts & Blueberry and Chocolate Chips Cookies.",
+    "story": "This is real life saver recipe when it comes to unexpected guests visiting : ) very easy, very fast and usually made from ingredients that are at home all the time. And you may add literally anything you want in your cookies – my favorite Macadamia nuts and blueberries, my husband’s – chocolate chips : ).<br /><br />Here is how I cook it.",
+    "category": "sweets",
+    "recipeURL": "#/recipes/cookies",
+    "imageURL": "images/recipes/cookies.jpg",
+    "creationDate": "2015-04-27",
+    "lastModified": "2015-04-27",
+    "servings": 6,
+    "cookingTime": 20,
+  "ingredients": [
+    {
+      "name": "butter",
+      "quantity": 115,
+      "unit": "g",
+      "preparationNotes": "soft"
+        },
+    {
+      "name": "sugar",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparationNotes": null
+        },
+    {
+      "name": "eggs",
+      "quantity": 1,
+      "unit": null,
+      "preparationNotes": null
+        },
+    {
+      "name": "salt",
+      "quantity": 1,
+      "unit": "tsp",
+      "preparationNotes": null
+        },
+    {
+      "name": "baking powder",
+      "quantity": 1,
+      "unit": "tsp",
+      "preparationNotes": null
+        },
+    {
+      "name": "vanilla extract",
+      "quantity": 0.5,
+      "unit": "tsp",
+      "preparationNotes": null
+        },
+    {
+      "name": "peanut butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparationNotes": null
+        },
+    {
+      "name": "flour",
+      "quantity": 1.5,
+      "unit": "cup",
+      "preparationNotes": null
+        },
+        {
+      "name": "Your flavour",
+      "quantity": null,
+      "unit": null,
+      "preparationNotes": "I divide dough in two: to one half add a handful of chocolate chips, and nuts and blueberries to the other."
+        }
+    ],
+  "instructions": [
+    "Preheat your oven to 175 C (350 F).",
+    "Mix butter with sugar.",
+    "Add egg.",
+    "Add salt, baking powder and vanilla, mix everything very well.",
+    "Add peanut butter, mix.",
+    "Start adding flour gradually, keep mixing.",
+    "Add your desired flavor, incorporate it to the dough.",
+    "Make cookies. I like big ones, so from this amount of ingredients I get 12 cookies.",
+    "Bake for 15 min in 175 C (350F).",
+    "Leave to cool down on a rack."
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "recipeID": 20,
+    "title": "Eggs Benedict",
+    "slug": "eggs-benedict",
+    "description": "Ultimate brunch to start a happy Saturday or Sunday.",
+    "story": "I like to order eggs Benedict when we have brunch outside home. But actually it's quite easy to do at home as well. The egg usually doesn't look that nice as in restaurant, but the taste is the same (or even better sometimes :)).<br /><br />This is our way of starting Saturday or Sunday.",
+    "category": "brunch",
+    "recipeURL": "#/recipes/eggs-benedict",
+    "imageURL": "images/recipes/eggs-benedict.jpg",
+    "creationDate": "2015-05-28",
+    "servings": 2,
+    "cookingTime": 30,
+  "ingredients": [
+    {
+      "name": "eggs",
+      "quantity": 4,
+      "unit": null,
+      "preparationNotes": null
+        },
+            {
+      "name": "egg yolks",
+      "quantity": 2,
+      "unit": null,
+      "preparationNotes": null
+        },
+    {
+      "name": "lemon juice",
+      "quantity": 1,
+      "unit": "tbsp",
+      "preparationNotes": null
+        },
+    {
+      "name": "Dijon mustard",
+      "quantity": 1,
+      "unit": "tsp",
+      "preparationNotes": null
+        },
+    {
+      "name": "salt",
+      "quantity": 1,
+      "unit": "pinch",
+      "preparationNotes": null
+        },
+    {
+      "name": "butter",
+      "quantity": 6,
+      "unit": "tbsp",
+      "preparationNotes": "melted"
+        },
+    {
+      "name": "paprika",
+      "quantity": 1,
+      "unit": "pinch",
+      "preparationNotes": null
+        },
+    {
+      "name": "pepper",
+      "quantity": 1,
+      "unit": "pinch",
+      "preparationNotes": null
+        },
+    {
+      "name": "bread",
+      "quantity": 4,
+      "unit": "slices",
+      "preparationNotes": "(originaly eggs Benedict are being made with English muffin, but I take any bread I ahve at home)"
+        },
+    {
+      "name": "bacon",
+      "quantity": 4,
+      "unit": "slices",
+      "preparationNotes": "(Canadian ham is used mostly, I simply take bacon or any ham I have)"
+        },
+    {
+      "name": "vinegar",
+      "quantity": 1,
+      "unit": "tbsp",
+      "preparationNotes": "for decoration"
+        },
+    {
+      "name": "chives",
+      "quantity": null,
+      "unit": null,
+      "preparationNotes": "for decoration"
+        }
+        
+    ],
+  "instructions": [
+    "Whisk egg yolks with mustard and lemon juice, add some salt, pepper.",
+    "Gradually add melted butter, keep whisking.",
+    "Put a sauce in a bowl over boiling water, keep whisking until souce thickens.",
+    "Boil water for poached eggs.",
+    "Add a table spoon of vinegar.",
+    "Make a well in water, carefully place egg into the water (without shell).",
+    "Cook for 2-3 minutes.",
+    "Fry bacon.",
+    "Assemple everything in this order: bread (make a toast if you like), bacon, egg, sauce.",
+    "Decorate with chopped chives and a sprinkle of paprika."
+    ]
+}

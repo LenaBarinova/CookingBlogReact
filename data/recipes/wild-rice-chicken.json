@@ -1,0 +1,60 @@
+{
+  "recipeID": 2,
+  "title": "Wild rice & Chicken",
+  "slug": "wild-rice-chicken",
+  "description": "Easy to make after the work for healthy and delicious dinner.",
+  "story": "Really fast recipe and you can use almost all the vegetables you have. You can season it with some soy sauce. And of course, you can use salmon or shrimps instead of chicken.<br /><br />This easy recipe could go as a side dish for fish or meat or can be just good by itself.",
+  "category": "after-work",
+  "recipeURL": "#/recipes/wild-rice-chicken",
+  "imageURL": "images/recipes/wild-rice-chicken.jpg",
+  "creationDate": "2015-05-02",
+  "lastModified": "2015-05-02",
+  "servings": 4,
+  "cookingTime": 15,
+  "ingredients": [
+    {
+      "name": "wild rice",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparationNotes": "(Or you can use regular rice, I like the nutty taste and crunch of wild rice.)"
+        },
+    {
+      "name": "peas",
+      "quantity": 1,
+      "unit": "handful",
+      "preparationNotes": "frozen"
+        },
+    {
+      "name": "onion",
+      "quantity": 0.5,
+      "unit": null,
+      "preparationNotes": null
+        },
+    {
+      "name": "bell pepper",
+      "quantity": 0.5,
+      "unit": null,
+      "preparationNotes": null
+        },
+    {
+      "name": "eggs",
+      "quantity": 1,
+      "unit": null,
+      "preparationNotes": null
+        },
+    {
+      "name": "dried herbs",
+      "quantity": 1,
+      "unit": "pinch",
+      "preparationNotes": "(I use Italian mix) and some salt and pepper"
+        }
+    ],
+  "instructions": [
+    "Cook rice.",
+    "Souté finely chopped onion on some olive oil.",
+    "Add chopped bell peppper to onion.",
+    "Cook for several minutes.",
+    "Add egg and mix well (so that egg would become scrambled).",
+    "Add rice and peas."
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "recipeID": 18,
+    "title": "Swedish Pancakes",
+    "slug": "swedish-pancakes",
+    "description": "So called Swedish pancakes are worth a try: fluffy, soft, light.",
+    "story": "I first tryed these in US. Very fluffy, light and absolutely deliciuos pancakes. Usually served with lingonberry jam. <br /><br.>",
+    "category": "brunch",
+    "recipeURL": "#/recipes/swedish-pancakes",
+    "imageURL": "images/recipes/swedish-pancakes.jpg",
+    "creationDate": "2015-05-17",
+    "lastModified": "2015-05-17",
+    "servings": 4,
+    "cookingTime": 30,
+  "ingredients": [
+    {
+      "name": "eggs",
+      "quantity": 3,
+      "unit": null,
+      "preparationNotes": null
+        },
+    {
+      "name": "milk",
+      "quantity": 1.5,
+      "unit": "cup",
+      "preparationNotes": null
+        },
+    {
+      "name": "wheat flour",
+      "quantity": 1,
+      "unit": "cup",
+      "preparationNotes": null
+        },
+    {
+      "name": "sugar",
+      "quantity": 1,
+      "unit": "tbsp",
+      "preparationNotes": null
+        },
+    {
+      "name": "salt",
+      "quantity": 1,
+      "unit": "pinch",
+      "preparationNotes": null
+        },
+    {
+      "name": "butter",
+      "quantity": 3,
+      "unit": "tbsp",
+      "preparationNotes": "melted"
+        },
+            {
+      "name": "butter or olive oil",
+      "quantity": 3,
+      "unit": "tbsp",
+      "preparationNotes": "to cook pancakes on"
+        },
+    {
+      "name": null,
+      "quantity": null,
+      "unit": null,
+      "preparationNotes": "lingonberry or maple syrup, berries, sour cream to serve with"
+        }
+    ],
+  "instructions": [
+    "Beat the eggs with sugar and salt.",
+    "Add flour and mix all together.",
+    "Start pouring milk gradually, keep stiring.",
+    "Let batter to rest for at least 20 minutes.",
+    "Then add melted butter, mix all well again.",
+    "Start cooking very thin pancakes, you can do either big (like crepes) or small ones.",
+    "Serve with ligonberry or some other jam, sprinkle with some powdered sugar."
+    ]
+}

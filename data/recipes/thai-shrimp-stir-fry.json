@@ -1,0 +1,121 @@
+{
+    "recipeID": 22,
+    "title": "Thai shrimp stir-fry",
+    "slug": "thai-shrimp-stir-fry",
+    "description": "Light, but full of flavours. Can be easily customizable recipe.",
+    "story": "This is a very delicious stir-fry, it is especially good with fresh shrimps (or you can use chicken instead). I got this recipe during master class given by Ossama Charafeddine in Vilnius.",
+    "category": "after-work",
+    "recipeURL": "#/recipes/thai-shrimp-stir-fry",
+    "imageURL": "images/recipes/thai-shrimp-stir-fry.jpg",
+    "creationDate": "2015-06-01",
+    "servings": 4,
+    "cookingTime": 30,
+  "ingredients": [
+    {
+      "name": "shrimps (scallops or chicken or a bit of everything)",
+      "quantity": 300,
+      "unit": "gr",
+      "preparationNotes": null
+        },
+    {
+      "name": "zucchini",
+      "quantity": 1,
+      "unit": null,
+      "preparationNotes": null
+        },
+    {
+      "name": "bell pepper",
+      "quantity": 1,
+      "unit": null,
+      "preparationNotes": null
+        },
+    {
+      "name": "carrot",
+      "quantity": 1,
+      "unit": null,
+      "preparationNotes": null
+        },
+    {
+      "name": "onion",
+      "quantity": 1,
+      "unit": null,
+      "preparationNotes": null
+        },
+    {
+      "name": "garlic cloves",
+      "quantity": 2,
+      "unit": null,
+      "preparationNotes": null
+        },
+    {
+      "name": "Tom Yum paste",
+      "quantity": 3,
+      "unit": "tbsp",
+      "preparationNotes": null
+        },
+    {
+      "name": "red curry paste",
+      "quantity": 3,
+      "unit": "tbsp",
+      "preparationNotes": null
+        },
+    {
+      "name": "ouster sauce",
+      "quantity": 1,
+      "unit": "tbsp",
+      "preparationNotes": null
+        },
+    {
+      "name": "coconut milk",
+      "quantity": 1,
+      "unit": "can",
+      "preparationNotes": "(400 ml)"
+        },
+    {
+      "name": "olive oil",
+      "quantity": null,
+      "unit": null,
+      "preparationNotes": null
+        },
+    {
+      "name": "chilli flakes",
+      "quantity": null,
+      "unit": null,
+      "preparationNotes": null
+        },
+    {
+      "name": "lemon grass",
+      "quantity": null,
+      "unit": null,
+      "preparationNotes": null
+        },
+    {
+      "name": "chives",
+      "quantity": null,
+      "unit": null,
+      "preparationNotes": null
+        },
+    {
+      "name": "lemon",
+      "quantity": null,
+      "unit": null,
+      "preparationNotes": "(several slices to decorate)"
+        },
+    {
+      "name": "rice noodles",
+      "quantity": null,
+      "unit": null,
+      "preparationNotes": null
+        }
+    ],
+  "instructions": [
+    "Start cooking rice noodles.",
+    "Finely chop onion, saute it on some oil in a big pan for a couple of minutes.",
+    "Add finely chopped garlic.",
+    "Cut all vegetables in similar sized straws. Put them gradually into the pan: starting from carrot (saute for a couple of minutes) then add bell pepper, and lastly – zucchini.",
+    "Add Tom Yum and Curry paste and oyster sauce. Pour coconut milk, add lemon grass. Stir everything. Cook for 5-7 minutes.",
+    "Meanwhile, on a separate pan fry shrimps (or chicken).",
+    "Add shrimps and noodles to the pan with vegetables. Stir everything.",
+    "Remove lemon grass before serving. Season with chili flakes and chopped chives."
+    ]
+}

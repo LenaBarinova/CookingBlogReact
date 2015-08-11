@@ -1,0 +1,94 @@
+{
+    "recipeID": 23,
+    "title": "Spring rolls & Peanutbutter sauce",
+    "slug": "spring-rolls-peanut-butter-sauce",
+    "description": "Light, healthy, very convinient to make for a picnic or as snack for a party.",
+    "story": "I would say it’s both: a healthy and delicious choice. Chicken may be replaced with other cooked meat (e.g. duck, turkey) or with more vegies for vegetarian option.</br></br>Mango maybe substituted with a pineapple or even peach.",
+    "category": "to-go",
+    "recipeURL": "#/recipes/spring-rolls-peanut-butter-sauce",
+    "imageURL": "images/recipes/spring-rolls-peanut-butter-sauce.jpg",
+    "creationDate": "2015-07-10",
+    "servings": 4,
+    "cookingTime": 20,
+  "ingredients": [
+    {
+      "name": "peanut butter",
+      "quantity": 250,
+      "unit": "g",
+      "preparationNotes": null
+        },
+    {
+      "name": "coconut milk",
+      "quantity": 150,
+      "unit": "ml",
+      "preparationNotes": null
+        },
+    {
+      "name": "soy sauce",
+      "quantity": 1,
+      "unit": "tbsp",
+      "preparationNotes": null
+        },
+    {
+      "name": "olive oil",
+      "quantity": 1,
+      "unit": "tbsp",
+      "preparationNotes": null
+        },
+    {
+      "name": "honey",
+      "quantity": 1,
+      "unit": "tsp",
+      "preparationNotes": "or sugar syrup"
+        },
+    {
+      "name": "salt",
+      "quantity": null,
+      "unit": null,
+      "preparationNotes": "to taste"
+        },
+    {
+      "name": "carrot",
+      "quantity": 1,
+      "unit": null,
+      "preparationNotes": null
+        },
+    {
+      "name": "cucumber",
+      "quantity": 1,
+      "unit": null,
+      "preparationNotes": null
+        },
+    {
+      "name": "mango",
+      "quantity": 1,
+      "unit": null,
+      "preparationNotes": null
+        },
+    {
+      "name": "chicken breast",
+      "quantity": 1,
+      "unit": null,
+      "preparationNotes": "cooked (either boiled or baked or fried)"
+        },
+    {
+      "name": "letuce leaves",
+      "quantity": null,
+      "unit": null,
+      "preparationNotes": null
+        },
+    {
+      "name": "spring rolls rice wrappers",
+      "quantity": 12,
+      "unit": null,
+      "preparationNotes": null
+        }
+        
+    ],
+  "instructions": [
+    "Mix everything for a sauce and set aside.",
+    "Slice carrot, cucumber, mango and chicken in equal thick straws.",
+    "Dip a rice wrapper in hot water (one at a time) and roll vegetables and chicken into it..",
+    "If you are taking these rolls to a picnic in a hot summer day, be sure it's packed cold using some ice packs or in a portable fridge."
+    ]
+}
