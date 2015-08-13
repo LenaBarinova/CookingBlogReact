@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 import React from 'react';
-import RecipeList from '../components/recipe-list.jsx';
+import RecipeList from '../src/components/recipe-list.jsx';
 import createComponent from './utils/create-component.js';
 
 describe('Testing list of recipes', function() {

@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 import React from 'react';
-import Recipe from '../components/recipe.jsx';
+import Recipe from '../src/components/recipe.jsx';
 import createComponent from './utils/create-component.js';
 
 describe('Testing recipeItem component', function() {

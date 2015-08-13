@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var plug = require('gulp-load-plugins')();
  
 gulp.task('react', function () {
-  return gulp.src(['./*/*.jsx', '*.jsx'])
+  return gulp.src(['./src/**/*.jsx', './src/*.jsx'])
         .pipe(plug.react({harmony: false, es6module: true}))
         .pipe(gulp.dest('output'));
 });
@@ -25,26 +25,26 @@ gulp.task('test', function () {
 });
 
 gulp.task('copy-index', function() {
-  return gulp.src(['./index.html'])
+  return gulp.src(['./src/index.html'])
     .pipe(gulp.dest('./output'));
 });
 
 gulp.task('copy-img', function() {
-  return gulp.src(['./images/**/*'])
+  return gulp.src(['./src/images/**/*'])
     .pipe(gulp.dest('./output/images/'));
 });
 
 gulp.task('copy-fonts', function() {
-  return gulp.src(['./fonts/**'])
+  return gulp.src(['./src/fonts/**'])
     .pipe(gulp.dest('./output/fonts/'));
 });
 
 gulp.task('copy-styles', function() {
-  return gulp.src(['./css/**/*'])
+  return gulp.src(['./src/css/**/*'])
     .pipe(gulp.dest('./output/css/'));
 });
 gulp.task('copy-jstheme', function() {
-  return gulp.src(['./js/theme/*'])
+  return gulp.src(['./src/js/theme/*'])
     .pipe(gulp.dest('./output/js/theme'));
 });
     
