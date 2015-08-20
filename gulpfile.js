@@ -29,8 +29,22 @@ gulp.task('copy-index', function() {
     .pipe(gulp.dest('./output'));
 });
 
+gulp.task('prep-img', function () {
+  return gulp
+    .src('./src/images/recipes/*')
+    .pipe(plug.imageResize({ 
+      width : 400,
+      height : 400,
+      crop : false,
+      upscale : false
+    }))
+    .pipe(plug.imagemin({
+      progressive: true
+    }))
+    .pipe(gulp.dest('./output/images/recipes/'));
+});
 gulp.task('copy-img', function() {
-  return gulp.src(['./src/images/**/*'])
+  return gulp.src(['./src/images/*'])
     .pipe(gulp.dest('./output/images/'));
 });
 
@@ -48,7 +62,7 @@ gulp.task('copy-jstheme', function() {
     .pipe(gulp.dest('./output/js/theme'));
 });
     
-gulp.task('build',['es2015', 'test','copy-jstheme','copy-index','copy-img', 'copy-fonts', 'copy-styles'], function(){
+gulp.task('build',['es2015', 'test','copy-jstheme','copy-index','prep-img', 'copy-img', 'copy-fonts', 'copy-styles'], function(){
   return gulp.src('./output/index.html')
         .pipe(plug.open(), {app: 'google-chrome'});
 });
