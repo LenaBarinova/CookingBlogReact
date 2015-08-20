@@ -6,6 +6,7 @@
   "devDependencies": {
     "babel": "^5.1.13",
     "chai": "^3.2.0",
+    "flux": "^2.0.3",
     "gulp": "^3.9.0",
     "gulp-babel": "^5.1.0",
     "gulp-browserify": "^0.5.1",
@@ -15,7 +16,8 @@
     "gulp-react": "^3.0.1",
     "gulp-shell": "^0.4.2",
     "mocha": "2.0.1",
-    "react": "^0.13.3"
+    "react": "^0.13.3",
+    "react-router": "^0.13.3"
   },
   "scripts": {
     "test": "mocha test/*-test.js  --compilers js:babel/register"
