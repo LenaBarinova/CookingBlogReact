@@ -1,7 +1,12 @@
-var React = require('react');
-var RecipeList = require ('./components/recipe-list');
+let React = require('react');
+let Router = require('react-router');
+let Route = Router.Route;
 
-var allRecipesData =[
+let RecipeList = require ('./components/recipe-list');
+let About = require ('./components/about');
+let RecipeView = require ('./components/recipe-view');
+
+const allRecipesData =[
   {
     "recipeID": 1,
     "title": "Chocolate Homemade Truffles",
@@ -16,7 +21,7 @@ var allRecipesData =[
     "cookingTime": 35
   },
   {
-    "recipeID": 4,
+    "recipeID": 2,
     "title": "Greek Salad",
     "slug": "greek-salad",
     "description": "Light, easy, healthy, delicious. Very good dinner option to have after a work day.",
@@ -29,7 +34,7 @@ var allRecipesData =[
     "cookingTime": 15
   },
   {
-    "recipeID": 4,
+    "recipeID": 3,
     "title": "Ham & Cheese Crepes",
     "slug": "ham-cheese-crepes",
     "description": "Nothing fancy today, just simply delicious and easy to make Crepes.",
@@ -68,7 +73,7 @@ var allRecipesData =[
     "cookingTime": 35
   },
   {
-    "recipeID": 2,
+    "recipeID": 11,
     "title": "Wild rice & Chicken",
     "slug": "wild-rice-chicken",
     "description": "Easy to make after the work for healthy and delicious dinner.",
@@ -238,7 +243,42 @@ var allRecipesData =[
   }
 ];
 
+let RecipeListData = React.createClass ({
+  render() {
+    return (
+        <RecipeList allRecipesData={allRecipesData}/>
+    );
+  }
+});
+
+let routes = (
+  <Route handler={App}>
+    
+    <Route path="/" handler={RecipeListData}/>
+    <Route path="about" handler={About}/>
+    <Route path="recipes" handler={RecipeListData}/>
+    <Route path="recipes/:id" handler={RecipeView}/>
+  </Route>
+);
+
+/*
 React.render(
   <RecipeList allRecipesData={allRecipesData}/>,
   document.getElementById('recipesContainer')
-);
+);*/
+
+let RouteHandler = Router.RouteHandler;
+
+let App = React.createClass({
+  render () {
+    return (
+      <div>
+        <RouteHandler/>
+      </div>
+    )
+  }
+});
+
+Router.run(routes, Router.HashLocation, (Root) => {
+  React.render(<Root/>, document.getElementById('recipesContainer'));
+});
