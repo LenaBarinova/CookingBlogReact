@@ -13,7 +13,7 @@
     "cookingTime": 35
   },
   {
-    "recipeID": 4,
+    "recipeID": 2,
     "title": "Greek Salad",
     "slug": "greek-salad",
     "description": "Light, easy, healthy, delicious. Very good dinner option to have after a work day.",
@@ -26,7 +26,7 @@
     "cookingTime": 15
   },
   {
-    "recipeID": 4,
+    "recipeID": 3,
     "title": "Ham & Cheese Crepes",
     "slug": "ham-cheese-crepes",
     "description": "Nothing fancy today, just simply delicious and easy to make Crepes.",
@@ -65,7 +65,7 @@
     "cookingTime": 35
   },
   {
-    "recipeID": 2,
+    "recipeID": 5,
     "title": "Wild rice & Chicken",
     "slug": "wild-rice-chicken",
     "description": "Easy to make after the work for healthy and delicious dinner.",
@@ -217,19 +217,6 @@
     "recipeURL": "#/recipes/carrot-muffins",
     "imageURL": "images/recipes/carrot-muffins.jpg",
     "creationDate": "2015-07-25",
-    "servings": 6,
-    "cookingTime": 30
-  },
-    {
-    "recipeID": 26,
-    "title": "Pizza",
-    "slug": "pizza",
-    "description": "Sweet and moist inside with a twist of bitterness from orange jam topping",
-    "story": "It's rather an autumn desert with warm flavours of cinnamon and nutmeg, but I wanted to share it here now to remember how good it was. </br></br>I think it would be good with pecan nuts and rasins added to the batter, unfortunately I didn't have enough this time.",
-    "category": "for-party",
-    "recipeURL": "#/recipes/pizza",
-    "imageURL": "images/recipes/pizza.jpg",
-    "creationDate": "2015-08-05",
     "servings": 6,
     "cookingTime": 30
   }
