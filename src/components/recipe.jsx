@@ -1,6 +1,6 @@
 let React = require('react');
 
-var Recipe = React.createClass ({
+let Recipe = React.createClass ({
   render() {
     return (
       <div className="4u" key={this.props.recipeID}>

@@ -1,7 +1,7 @@
 let React = require('react');
 let Router = require('react-router');
 
-var RecipeView = React.createClass ({
+let RecipeView = React.createClass ({
   getInitialState: function() {
     return {    
       recipe: {
@@ -13,7 +13,7 @@ var RecipeView = React.createClass ({
   
   componentDidMount: function() {
     $.get('http://localhost:8000/data/recipes/' + this.props.params.id + '.json', function(result) {
-      var recipeData = result;
+      let recipeData = result;
       if (this.isMounted()) {
         this.setState({
           recipe: recipeData

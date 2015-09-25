@@ -1,6 +1,6 @@
 let React = require('react');
 
-var About = React.createClass ({
+let About = React.createClass ({
   render() {
     return (
       <div id="main-wrapper">
