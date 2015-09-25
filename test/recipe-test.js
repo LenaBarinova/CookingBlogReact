@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 import React from 'react';
-import Recipe from '../src/components/recipe.jsx';
+import RecipeListItem from '../src/components/recipe-list-item.jsx';
 import createComponent from './utils/create-component.js';
 
 describe('Testing recipeItem component', function() {
@@ -12,7 +12,7 @@ describe('Testing recipeItem component', function() {
         expectedDescription = 'This is my most favourite dish ever!!',
         expectedRecipeURL = '#/recipes/lasagna';
         
-  recipeItem = createComponent(Recipe, {
+  recipeItem = createComponent(RecipeListItem, {
                   recipeID: expectedRecipeID, 
                   title: expectedTitle, 
                   imageURL: expectedImageURL, 

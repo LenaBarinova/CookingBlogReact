@@ -1,5 +1,5 @@
 let React = require('react');
-let Recipe = require('./recipe');
+let RecipeListItem = require('./recipe-list-item');
 
 
 let compareReverse = function (a, b) {
@@ -15,7 +15,7 @@ let RecipeList = React.createClass ({
     this.props.allRecipesData = this.props.allRecipesData.sort(compareReverse);
     let recipeComponents = this.props.allRecipesData.map(function(recipe) {
       return (
-        <Recipe recipeID={recipe.recipeID} title={recipe.title} imageURL={recipe.imageURL} description={recipe.description} recipeURL={recipe.recipeURL} key={recipe.recipeID}/>
+        <RecipeListItem recipeID={recipe.recipeID} title={recipe.title} imageURL={recipe.imageURL} description={recipe.description} recipeURL={recipe.recipeURL} key={recipe.recipeID}/>
       );
     });
     return (

@@ -1,6 +1,6 @@
 let React = require('react');
 
-let Recipe = React.createClass ({
+let RecipeListItem = React.createClass ({
   render() {
     return (
       <div className="4u" key={this.props.recipeID}>
@@ -20,6 +20,6 @@ let Recipe = React.createClass ({
   }
 });
 
-module.exports = Recipe;
+module.exports = RecipeListItem;
 
         
