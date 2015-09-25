@@ -1,7 +1,7 @@
 let React = require('react');
 let Router = require('react-router');
 
-let RecipeView = React.createClass ({
+let Recipe = React.createClass ({
   getInitialState: function() {
     return {    
       recipe: {
@@ -118,6 +118,4 @@ let RecipeView = React.createClass ({
   }
 });
 
-module.exports = RecipeView;
-
-        
+module.exports = Recipe;        

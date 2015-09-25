@@ -4,7 +4,7 @@ let Route = Router.Route;
 
 let RecipeList = require ('./components/recipe-list');
 let About = require ('./components/about');
-let RecipeView = require ('./components/recipe-view');
+let Recipe = require ('./components/recipe');
 
 const allRecipesData = require('./../data/recipes/all_recipes.json');
 
@@ -22,7 +22,7 @@ let routes = (
     <Route path="/" handler={RecipeListData}/>
     <Route path="about" handler={About}/>
     <Route path="recipes" handler={RecipeListData}/>
-    <Route path="recipes/:id" handler={RecipeView}/>
+    <Route path="recipes/:id" handler={Recipe}/>
   </Route>
 );
 
