@@ -68,7 +68,7 @@ gulp.task('build',['es2015', 'test','copy-jstheme','copy-index','prep-img', 'cop
 });
 
 gulp.task('watch', function() {
-    gulp.watch('**/*.*', ['test']);
+    gulp.watch('./src/**/*', ['test']);
 });
 
 gulp.task('publish', function() {

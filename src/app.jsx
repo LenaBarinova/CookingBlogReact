@@ -18,19 +18,12 @@ let RecipeListData = React.createClass ({
 
 let routes = (
   <Route handler={App}>
-    
     <Route path="/" handler={RecipeListData}/>
     <Route path="about" handler={About}/>
     <Route path="recipes" handler={RecipeListData}/>
     <Route path="recipes/:id" handler={Recipe}/>
   </Route>
 );
-
-/*
-React.render(
-  <RecipeList allRecipesData={allRecipesData}/>,
-  document.getElementById('recipesContainer')
-);*/
 
 let RouteHandler = Router.RouteHandler;
 

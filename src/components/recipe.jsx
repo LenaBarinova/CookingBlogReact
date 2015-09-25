@@ -108,11 +108,11 @@ let Recipe = React.createClass ({
         </div>
       </div>
       
-      <div id="sidebar" className="3u" jb-sidebar ng-if="false" />
-
+        <div id="sidebar" className="3u" jb-sidebar ng-if="false" />
+  
+      </div>
     </div>
   </div>
-</div>
       
     );
   }
