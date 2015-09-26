@@ -1,6 +1,6 @@
+'use strict';
 let React = require('react');
-let RecipeListItem = require('./recipe-list-item');
-
+let RecipeListItem = require('./recipe-list-item.jsx');
 
 let compareReverse = function (a, b) {
   if (a.creationDate < b.creationDate)

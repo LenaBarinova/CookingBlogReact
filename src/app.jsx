@@ -1,10 +1,11 @@
+'use strict';
 let React = require('react');
 let Router = require('react-router');
 let Route = Router.Route;
 
-let RecipeList = require ('./components/recipe-list');
-let About = require ('./components/about');
-let Recipe = require ('./components/recipe');
+let RecipeList = require ('./components/recipe-list.jsx');
+let About = require ('./components/about.jsx');
+let Recipe = require ('./components/recipe.jsx');
 
 const allRecipesData = require('./../data/recipes/all_recipes.json');
 
@@ -13,6 +14,17 @@ let RecipeListData = React.createClass ({
     return (
         <RecipeList allRecipesData={allRecipesData}/>
     );
+  }
+});
+let RouteHandler = Router.RouteHandler;
+
+let App = React.createClass({
+  render () {
+    return (
+      <div>
+        <RouteHandler/>
+      </div>
+    )
   }
 });
 
@@ -25,17 +37,7 @@ let routes = (
   </Route>
 );
 
-let RouteHandler = Router.RouteHandler;
 
-let App = React.createClass({
-  render () {
-    return (
-      <div>
-        <RouteHandler/>
-      </div>
-    )
-  }
-});
 
 Router.run(routes, Router.HashLocation, (Root) => {
   React.render(<Root/>, document.getElementById('recipesContainer'));

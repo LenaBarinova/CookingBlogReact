@@ -1,3 +1,4 @@
+'use strict';
 let React = require('react');
 let Router = require('react-router');
 
@@ -62,57 +63,56 @@ let Recipe = React.createClass ({
                       <a className="link fa fa-pinterest" social-pinterest media="http://lorempixel.com/100/100/nature/1" custom-url="{pageUrl}"></a>
                       <a className="link fa fa-google-plus" social-gplus custom-url="{pageUrl}"></a>
                     </span>
-            </aside>
-            <hr />
-            <aside>
-              <p>
-                <span>{this.state.recipe.description}</span>
-                <br />
-                <br />
-                <span dangerouslySetInnerHTML={{__html: this.state.recipe.story}} />
-              </p>
-            </aside>
-            <hr />
-            <aside>
-              <ul className="icons left">
-                <li className="icon fa fa-clock-o">
-                  <sup>Cooking time</sup>
-                  <h6>{this.state.recipe.cookingTime} minutes</h6>
-                </li>
-              </ul>
-              <ul className="icons right">
-                <li className="icon fa fa-male">
-                  <sup>Recipe makes</sup>
-                  <h6>{this.state.recipe.servings} Servings</h6>
-                </li>
-              </ul>
-            </aside>
-          </div>
-          <div className="6u">
-            <span className="image featured"><img src={this.state.recipe.imageURL} alt=""/></span>
-          </div>
+                  </aside>
+              <hr />
+              <aside>
+                <p>
+                  <span>{this.state.recipe.description}</span>
+                  <br />
+                  <br />
+                  <span dangerouslySetInnerHTML={{__html: this.state.recipe.story}} />
+                </p>
+              </aside>
+              <hr />
+              <aside>
+                <ul className="icons left">
+                  <li className="icon fa fa-clock-o">
+                    <sup>Cooking time</sup>
+                    <h6>{this.state.recipe.cookingTime} minutes</h6>
+                  </li>
+                </ul>
+                <ul className="icons right">
+                  <li className="icon fa fa-male">
+                    <sup>Recipe makes</sup>
+                    <h6>{this.state.recipe.servings} Servings</h6>
+                  </li>
+                </ul>
+              </aside>
+              </div>
+              <div className="6u">
+                <span className="image featured"><img src={this.state.recipe.imageURL} alt=""/></span>
+              </div>
+            </div>
+            <div className="row">
+              <div className="6u">
+                <h5>Ingredients</h5>
+                <p>
+                  {ingredients}
+                </p>
+              </div>
+              <div className="6u">
+                <h5>Instructions</h5>
+                <p>
+                  {instructions}
+                </p>
+              </div>
+            </div>
+          </div>        
+          <div id="sidebar" className="3u" jb-sidebar ng-if="false" />
+    
         </div>
-        <div className="row">
-          <div className="6u">
-            <h5>Ingredients</h5>
-            <p>
-              {ingredients}
-            </p>
-          </div>
-          <div className="6u">
-            <h5>Instructions</h5>
-            <p>
-              {instructions}
-            </p>
-          </div>
-        </div>
-      </div>
-      
-        <div id="sidebar" className="3u" jb-sidebar ng-if="false" />
-  
       </div>
     </div>
-  </div>
       
     );
   }
