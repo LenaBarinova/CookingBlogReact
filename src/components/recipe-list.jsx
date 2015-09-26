@@ -1,4 +1,5 @@
 'use strict';
+
 let React = require('react');
 let RecipeListItem = require('./recipe-list-item.jsx');
 

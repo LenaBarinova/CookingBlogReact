@@ -1,4 +1,5 @@
 'use strict';
+
 let React = require('react');
 
 let RecipeListItem = React.createClass ({
