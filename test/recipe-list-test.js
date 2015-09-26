@@ -34,7 +34,7 @@ describe('Testing list of recipes', function() {
     }
   ];
   
-  recipeList = createComponent(RecipeList, {allRecipesData: expectedAllRecipesData});
+  recipeList = createComponent(RecipeList, {recipesData: expectedAllRecipesData});
 
   it('should render an element of a type div', function() {
     expect(recipeList.type).to.equal('div'); 

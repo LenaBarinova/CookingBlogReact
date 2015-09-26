@@ -2,29 +2,9 @@
 let React = require('react');
 let Router = require('react-router');
 
-let Recipe = React.createClass ({
-  getInitialState: function() {
-    return {    
-      recipe: {
-      ingredients: [],
-      instructions: []
-      }
-    };
-  },
-  
-  componentDidMount: function() {
-    $.get('http://localhost:8000/data/recipes/' + this.props.params.id + '.json', function(result) {
-      let recipeData = result;
-      if (this.isMounted()) {
-        this.setState({
-          recipe: recipeData
-        });
-      }
-    }.bind(this));
-  },
-  
+let Recipe = React.createClass ({  
   render() {
-    let ingredients = this.state.recipe.ingredients.map(function(ingredient) {
+    let ingredients = this.props.recipeData.ingredients.map(function(ingredient) {
       return (
         <span>
           <strong>{ingredient.quantity} {ingredient.unit}</strong> 
@@ -35,7 +15,7 @@ let Recipe = React.createClass ({
       );
     });
     let i = 1;
-    let instructions = this.state.recipe.instructions.map(function(instruction) {
+    let instructions = this.props.recipeData.instructions.map(function(instruction) {
       return (
         <span>
           <strong>{i++}. </strong>
@@ -51,12 +31,12 @@ let Recipe = React.createClass ({
 
             <div id="content" className="9u">
               <header>
-                <h2><b>{this.state.recipe.title}</b></h2>
+                <h2><b>{this.props.recipeData.title}</b></h2>
               </header>
               <div className="row">
                 <div className="6u">
                   <aside>
-                    <span>Posted: <b>{this.state.recipe.creationDate}</b></span>
+                    <span>Posted: <b>{this.props.recipeData.creationDate}</b></span>
                     <span className="right" ng-if="false">Share:
                       <a className="link fa fa-facebook-original" href="https://facebook.com/sharer.php?u=http%3A%2F%2F127.0.0.1%3A49591%2F%23%2Frecipes%2Fchocolate-homemade-truffles" rel="nofollow"></a>
                       <a className="link fa fa-facebook" social-facebook custom-url="{pageUrl}"></a>
@@ -67,10 +47,10 @@ let Recipe = React.createClass ({
               <hr />
               <aside>
                 <p>
-                  <span>{this.state.recipe.description}</span>
+                  <span>{this.props.recipeData.description}</span>
                   <br />
                   <br />
-                  <span dangerouslySetInnerHTML={{__html: this.state.recipe.story}} />
+                  <span dangerouslySetInnerHTML={{__html: this.props.recipeData.story}} />
                 </p>
               </aside>
               <hr />
@@ -78,19 +58,19 @@ let Recipe = React.createClass ({
                 <ul className="icons left">
                   <li className="icon fa fa-clock-o">
                     <sup>Cooking time</sup>
-                    <h6>{this.state.recipe.cookingTime} minutes</h6>
+                    <h6>{this.props.recipeData.cookingTime} minutes</h6>
                   </li>
                 </ul>
                 <ul className="icons right">
                   <li className="icon fa fa-male">
                     <sup>Recipe makes</sup>
-                    <h6>{this.state.recipe.servings} Servings</h6>
+                    <h6>{this.props.recipeData.servings} Servings</h6>
                   </li>
                 </ul>
               </aside>
               </div>
               <div className="6u">
-                <span className="image featured"><img src={this.state.recipe.imageURL} alt=""/></span>
+                <span className="image featured"><img src={this.props.recipeData.imageURL} alt=""/></span>
               </div>
             </div>
             <div className="row">

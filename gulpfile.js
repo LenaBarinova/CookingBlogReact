@@ -73,7 +73,12 @@ gulp.task('copy-jstheme', function() {
     .pipe(gulp.dest('./output/js/theme'));
 });
 
-gulp.task('copy-files', ['copy-jstheme','copy-index','prep-img', 'copy-img', 'copy-fonts', 'copy-styles'], function() {});
+gulp.task('copy-data', function() {
+  return gulp.src(['./data/recipes/*'])
+    .pipe(gulp.dest('./output/data/recipes'));
+});
+
+gulp.task('copy-files', ['copy-data','copy-jstheme','copy-index','prep-img', 'copy-img', 'copy-fonts', 'copy-styles'], function() {});
 
 /* ------------ DEV ENV ------------ */
 

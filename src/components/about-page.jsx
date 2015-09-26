@@ -1,7 +1,7 @@
 'use strict';
 let React = require('react');
 
-let About = React.createClass ({
+let AboutPage = React.createClass ({
   render() {
     return (
       <div id="main-wrapper">
@@ -29,4 +29,4 @@ let About = React.createClass ({
   }
 });
 
-module.exports = About;
+module.exports = AboutPage;

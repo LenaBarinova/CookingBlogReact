@@ -12,8 +12,8 @@ let compareReverse = function (a, b) {
 
 let RecipeList = React.createClass ({
   render() {
-    this.props.allRecipesData = this.props.allRecipesData.sort(compareReverse);
-    let recipeComponents = this.props.allRecipesData.map(function(recipe) {
+    this.props.recipesData = this.props.recipesData.sort(compareReverse);
+    let recipeComponents = this.props.recipesData.map(function(recipe) {
       return (
         <RecipeListItem recipeID={recipe.recipeID} title={recipe.title} imageURL={recipe.imageURL} description={recipe.description} recipeURL={recipe.recipeURL} key={recipe.recipeID}/>
       );
