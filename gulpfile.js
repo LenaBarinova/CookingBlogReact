@@ -100,13 +100,6 @@ gulp.task('watch', function() {
     gulp.watch('./src/**/*', ['es2015']);
 });
 
-/* ------------ PRODUCTION ------------ */
-
-gulp.task('publish', function() {
-  return gulp.src(['./output/**/*'])
-    .pipe(plug.ghPages());
-});
-
 /* ------------ TASKS ------------ */
 
 gulp.task('clean-build', function(cb){
@@ -115,5 +108,12 @@ gulp.task('clean-build', function(cb){
 
 gulp.task('build', function (cb) {
   plug.runSequence('es2015', 'open', 'watch', cb);
+});
+
+/* ------------ PRODUCTION ------------ */
+
+gulp.task('publish', ['clean-build'], function() {
+  return gulp.src(['./output/**/*'])
+    .pipe(plug.ghPages());
 });
 

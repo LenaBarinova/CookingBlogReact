@@ -14,7 +14,7 @@ let RecipePage = React.createClass ({
     };
   },
   
-  componentDidMount: function() {
+  componentWillMount: function() {
     $.get('http://localhost:8008/data/recipes/' + this.props.params.id + '.json', function(result) {
       if (this.isMounted()) {
         this.setState({

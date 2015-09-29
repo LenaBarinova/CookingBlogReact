@@ -10,7 +10,7 @@ let RecipesPage = React.createClass ({
 		};
 	},
 
-	componentDidMount: function() {
+	componentWillMount: function() {
 		$.get('http://localhost:8008/data/recipes/all_recipes.json', function(result) {
 			if (this.isMounted()) {
 				this.setState({ recipes: result });
