@@ -18,7 +18,7 @@ let Recipe = React.createClass ({
     let i = 1;
     let instructions = this.props.recipeData.instructions.map(function(instruction) {
       return (
-        <span>
+        <span key={instruction}>
           <strong>{i++}. </strong>
           <span> {instruction} </span>
           <br />

@@ -12,6 +12,7 @@ let Routes = (
     <Route name="recipes" handler={require('./components/recipes-page.jsx')} />
     <Route name="about" handler={require('./components/about-page.jsx')} />
     <Route name="recipe" path="recipes/:id" handler={require('./components/recipe-page.jsx')} />
+    <Route name="category" path="recipes?:category" handler={require('./components/recipes-page.jsx')} />
   </Route>
 );
 

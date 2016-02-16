@@ -23,5 +23,3 @@ let RecipeListItem = React.createClass ({
 });
 
 module.exports = RecipeListItem;
-
-        

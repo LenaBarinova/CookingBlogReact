@@ -29,3 +29,8 @@ http-server --cors -a localhost -p 8000
 
 ## TO DO:
 1. Remove recipe URL from JSON, add Link object instead `a href` 
+2. Autogenerate links to css and js files in gulp
+
+4. Make Categories filtering 
+5. Hide categories dropdown in click
+6. Split categories componenet to menu and categories
